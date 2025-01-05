@@ -11,6 +11,11 @@
     box-sizing: border-box;
 }
 
+.main_heading{
+    color: var(--highlight-color);
+}
+
+
 .body {
     display: inline;
     flex-direction: column;
