@@ -15,7 +15,9 @@
     color: var(--highlight-color);
 }
 
-
+.h1highlight{
+    color: var(--highlight-color);
+}
 .body {
     display: inline;
     flex-direction: column;
@@ -140,6 +142,15 @@ footer .subscribe-form input {
     flex-grow: 1;
 }
 
+footer a {
+    color: #ccc;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
 .social-icons a {
     color: #ddd;
     font-size: 1.5rem;
@@ -162,44 +173,4 @@ footer .subscribe-form input {
 
 
 
-
-
-/* 2nd page */
-
-
-.gameDetails {
-    background-color: var(--secondary-color);
-    padding: 20px;
-    border-radius: 8px;
-    color: white;
-}
-
-.gameDetails h2 {
-    font-size: 2rem;
-    color: var(--highlight-color);
-    margin-bottom: 20px;
-}
-
-
-.teams {
-    background-color: var(--primary-color);
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 8px;
-    color: white;
-}
-
-.teams h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.teams p {
-    margin: 5px 0;
-}
-
-.teams p.leader {
-    font-weight: bold;
-    color: #ff5733;
-}
 
